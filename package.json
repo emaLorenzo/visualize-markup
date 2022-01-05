@@ -1,0 +1,25 @@
+{
+  "name": "visualizehtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "serve": "vite preview",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emaLorenzo/visualize-markup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emaLorenzo/visualize-markup/issues"
+  },
+  "homepage": "https://github.com/emaLorenzo/visualize-markup#readme",
+  "devDependencies": {
+    "vite": "^2.7.10"
+  }
+}
