@@ -1,3 +1,5 @@
+import Blobity from 'blobity';
+
 function createCursor() {
   new Blobity({
     zIndex: 1,
@@ -68,6 +70,10 @@ spotTagsContainer.addEventListener('click', () => {
     spotTagsContainer.classList.remove('minimized')
   }
 })
+
+window.onclick = e => {
+  console.log(e.target.tagName);
+} 
 
 createCursor()
 preventRightClick()
