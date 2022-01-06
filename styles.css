@@ -402,13 +402,13 @@ blockquote::after {
   width: 100%;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
-  transition-property: height, width;
+  /* transition-property: height, width; */
 }
 
 .spot-the-tags-container.minimized {
   width: 30%;
   height: 50px;
-  padding: 0 2rem;
+  padding: 0.2rem 2rem;
 }
 
 .spot-the-tags-container.minimized:hover {
@@ -427,6 +427,11 @@ blockquote::after {
   will-change: transform background;
   border-radius: 20px;
   transition: background,transform 0.1s ease-in-out;
+}
+
+.spot-the-tags-container.minimized h2 {
+  font-size: 1rem;
+  transition: font-size 0.3s ease-in;
 }
 
 .spot-the-tags-container.minimized svg {
@@ -459,15 +464,6 @@ blockquote::after {
     transform: translateY(120%);
   }
 }
-
-/* @keyframes minimize {
-  0% {
-    width: 100%;
-  }
-  100% {
-    width: 30%;
-  }
-} */
 
 .slide-in {
   animation: slide-in 0.7s ease-in-out forwards;
